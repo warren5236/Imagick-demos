@@ -96,7 +96,7 @@ class morphology extends \ImagickDemo\Example
 
     public function renderDescription()
     {
-        $output = "Applies a morpholohy effect to an image using an ImagickKernel. Please see the <a href='http://www.imagemagick.org/Usage/morphology/'>ImageMagick page on Morpgology</a> for exact details. <br/>&nbsp;<br/>";
+        $output = "Applies a morpholohy effect to an image using an ImagickKernel. Please see the <a href='http://www.imagemagick.org/Usage/morphology/'>ImageMagick page on Morphology</a> for exact details. <br/>&nbsp;<br/>";
 
         if (array_key_exists($this->morphologyType, $this->functionTable) == false) {
             $output .= "Example not done yet.";
